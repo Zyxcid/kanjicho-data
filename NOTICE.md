@@ -1,7 +1,8 @@
 # NOTICE — kanjicho-data
 
 File-to-source mapping and required attributions for every data file in this
-repository. Licence texts: `LICENSE` (CC BY-SA 4.0), `LICENSE-CC-BY-SA-3.0.txt`.
+repository. Licence texts: `LICENSE` (CC BY-SA 4.0),
+`LICENSE-CC-BY-SA-3.0.txt`.
 
 ## kanji/n5.json, n4.json, n3.json, n2.json, n1.json
 
@@ -38,15 +39,39 @@ corpus-frequency and common-use gates (Jiten frequency ranks + JMdict
 `ke_pri`/`re_pri` markers); rare-kanji forms (JMdict `rK`/`oK`/`iK`/`sK`
 tags) and archaic words are excluded.
 
-## strokes/strokes_n5.json … strokes_n1.json, components/components_n5.json … components_n1.json
+## strokes/strokes_n5.json … strokes_n2.json, strokes_n1_idx.json + strokes_n1_p0..p3.json, components/components_n5.json … components_n1.json
 
 Derived from **KanjiVG** (<http://kanjivg.tagaini.net/>) — © Ulrich Apel —
 used under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
 `strokes/*` are the SVG path `d` strings per stroke (viewBox 0 0 109 109),
-converted to JSON arrays per kanji. `components/*` are decomposition
-equations derived from KanjiVG stroke-group structure (e.g. 験 = ⾭ + 馬).
-NOT copied verbatim: only path data / group ids are kept; the SVG documents,
-attributes, and structure are dropped; only JLPT kanji are included.
+converted to JSON arrays per kanji; the N1 set is split into an index +
+four parts exactly as the app lazy-loads it (the parts are a byte-level
+split of one merged map — concatenate the part objects to recover the
+single file). `components/*` are decomposition equations derived from
+KanjiVG stroke-group structure (e.g. 験 = ⾭ + 馬). NOT copied verbatim: only
+path data / group ids are kept; the SVG documents, attributes, and
+structure are dropped; only JLPT kanji are included.
+
+## id_gloss.json
+
+Indonesian translation overlay: `m` maps 5,205 English kanji meanings
+(KANJIDIC2-derived glosses, the same strings used as keys in the app) to
+Indonesian, and `w` maps 3,960 example words to Indonesian glosses of their
+JMdict senses. Translating copyrighted glosses creates an adaptation, so
+this file is published under **CC BY-SA 4.0** like its sources: meanings —
+© Electronic Dictionary Research and Development Group (KANJIDIC2);
+glosses — © Electronic Dictionary Research and Development Group (JMdict).
+The translations themselves were produced for the Kanjichō app (batch
+translation, manual completion, line-by-line audit) and are contributed
+under the same licence as the underlying data, as ShareAlike requires.
+
+## manifest.json
+
+The N5–N1 study-unit structure: which kanji belong to which unit and in
+what order. Selection is KANJIDIC2 (© Electronic Dictionary Research and
+Development Group, CC BY-SA 4.0); ordering follows the Jiten global
+frequency signal (© Jiten, CC BY-SA 4.0) — build-time signal only, no
+frequency values appear in the file. Published under **CC BY-SA 4.0**.
 
 ## Third-party MIT notice (JLPT level data)
 
