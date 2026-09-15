@@ -1,0 +1,1108 @@
+{
+  "日": [
+    {
+      "word": "毎日",
+      "reading": "まいにち",
+      "meaning": "every day",
+      "type": "on"
+    },
+    {
+      "word": "誕生日",
+      "reading": "たんじょうび",
+      "meaning": "birthday",
+      "type": "kun"
+    }
+  ],
+  "一": [
+    {
+      "word": "一緒",
+      "reading": "いっしょ",
+      "meaning": "(doing) together",
+      "type": "on"
+    },
+    {
+      "word": "一つ",
+      "reading": "ひとつ",
+      "meaning": "one",
+      "type": "kun"
+    }
+  ],
+  "国": [
+    {
+      "word": "外国",
+      "reading": "がいこく",
+      "meaning": "foreign country",
+      "type": "on"
+    },
+    {
+      "word": "国",
+      "reading": "くに",
+      "meaning": "country",
+      "type": "kun"
+    }
+  ],
+  "人": [
+    {
+      "word": "外国人",
+      "reading": "がいこくじん",
+      "meaning": "foreigner",
+      "type": "on"
+    },
+    {
+      "word": "人",
+      "reading": "ひと",
+      "meaning": "person",
+      "type": "kun"
+    }
+  ],
+  "年": [
+    {
+      "word": "年",
+      "reading": "ねん",
+      "meaning": "year",
+      "type": "on"
+    },
+    {
+      "word": "毎年",
+      "reading": "まいとし",
+      "meaning": "every year",
+      "type": "kun"
+    }
+  ],
+  "大": [
+    {
+      "word": "大丈夫",
+      "reading": "だいじょうぶ",
+      "meaning": "safe",
+      "type": "on"
+    },
+    {
+      "word": "大きい",
+      "reading": "おおきい",
+      "meaning": "big",
+      "type": "kun"
+    }
+  ],
+  "十": [
+    {
+      "word": "二十世紀",
+      "reading": "にじっせいき",
+      "meaning": "twentieth century",
+      "type": "on"
+    },
+    {
+      "word": "二百十日",
+      "reading": "にひゃくとおか",
+      "meaning": "210th day (from the first day of spring according to the lunar calendar)",
+      "type": "kun"
+    }
+  ],
+  "二": [
+    {
+      "word": "二十世紀",
+      "reading": "にじっせいき",
+      "meaning": "twentieth century",
+      "type": "on"
+    },
+    {
+      "word": "二人",
+      "reading": "ふたり",
+      "meaning": "two persons",
+      "type": "kun"
+    }
+  ],
+  "本": [
+    {
+      "word": "本棚",
+      "reading": "ほんだな",
+      "meaning": "bookshelves",
+      "type": "on"
+    },
+    {
+      "word": "大本",
+      "reading": "おおもと",
+      "meaning": "root",
+      "type": "kun"
+    }
+  ],
+  "中": [
+    {
+      "word": "中",
+      "reading": "ちゅう",
+      "meaning": "medium (size)",
+      "type": "on"
+    },
+    {
+      "word": "背中",
+      "reading": "せなか",
+      "meaning": "back (of the body)",
+      "type": "kun"
+    }
+  ],
+  "長": [
+    {
+      "word": "成長",
+      "reading": "せいちょう",
+      "meaning": "growth",
+      "type": "on"
+    },
+    {
+      "word": "長い",
+      "reading": "ながい",
+      "meaning": "long (distance, length)",
+      "type": "kun"
+    }
+  ],
+  "出": [
+    {
+      "word": "出発",
+      "reading": "しゅっぱつ",
+      "meaning": "departure",
+      "type": "on"
+    },
+    {
+      "word": "出る",
+      "reading": "でる",
+      "meaning": "to leave",
+      "type": "kun"
+    }
+  ],
+  "三": [
+    {
+      "word": "三人",
+      "reading": "さんにん",
+      "meaning": "three people",
+      "type": "on"
+    },
+    {
+      "word": "三つ",
+      "reading": "みっつ",
+      "meaning": "three",
+      "type": "kun"
+    }
+  ],
+  "時": [
+    {
+      "word": "時間",
+      "reading": "じかん",
+      "meaning": "time",
+      "type": "on"
+    },
+    {
+      "word": "時々",
+      "reading": "ときどき",
+      "meaning": "sometimes",
+      "type": "kun"
+    }
+  ],
+  "行": [
+    {
+      "word": "旅行",
+      "reading": "りょこう",
+      "meaning": "travel",
+      "type": "on"
+    },
+    {
+      "word": "行く",
+      "reading": "いく",
+      "meaning": "to go",
+      "type": "kun"
+    }
+  ],
+  "見": [
+    {
+      "word": "発見",
+      "reading": "はっけん",
+      "meaning": "discovery",
+      "type": "on"
+    },
+    {
+      "word": "見せる",
+      "reading": "みせる",
+      "meaning": "to show",
+      "type": "kun"
+    }
+  ],
+  "月": [
+    {
+      "word": "今月",
+      "reading": "こんげつ",
+      "meaning": "this month",
+      "type": "on"
+    },
+    {
+      "word": "毎月",
+      "reading": "まいつき",
+      "meaning": "every month",
+      "type": "kun"
+    }
+  ],
+  "後": [
+    {
+      "word": "午後",
+      "reading": "ごご",
+      "meaning": "afternoon",
+      "type": "on"
+    },
+    {
+      "word": "後",
+      "reading": "あと",
+      "meaning": "behind",
+      "type": "kun"
+    }
+  ],
+  "前": [
+    {
+      "word": "午前",
+      "reading": "ごぜん",
+      "meaning": "morning",
+      "type": "on"
+    },
+    {
+      "word": "名前",
+      "reading": "なまえ",
+      "meaning": "name",
+      "type": "kun"
+    }
+  ],
+  "生": [
+    {
+      "word": "先生",
+      "reading": "せんせい",
+      "meaning": "teacher",
+      "type": "on"
+    },
+    {
+      "word": "生まれる",
+      "reading": "うまれる",
+      "meaning": "to be born",
+      "type": "kun"
+    }
+  ],
+  "五": [
+    {
+      "word": "十五",
+      "reading": "じゅうご",
+      "meaning": "fifteen",
+      "type": "on"
+    },
+    {
+      "word": "五つ",
+      "reading": "いつつ",
+      "meaning": "five",
+      "type": "kun"
+    }
+  ],
+  "間": [
+    {
+      "word": "時間",
+      "reading": "じかん",
+      "meaning": "time",
+      "type": "on"
+    },
+    {
+      "word": "この間",
+      "reading": "このあいだ",
+      "meaning": "the other day",
+      "type": "kun"
+    }
+  ],
+  "上": [
+    {
+      "word": "上手",
+      "reading": "じょうず",
+      "meaning": "skillful",
+      "type": "on"
+    },
+    {
+      "word": "上",
+      "reading": "うえ",
+      "meaning": "above",
+      "type": "kun"
+    }
+  ],
+  "東": [
+    {
+      "word": "東京",
+      "reading": "とうきょう",
+      "meaning": "Tokyo",
+      "type": "on"
+    },
+    {
+      "word": "東",
+      "reading": "ひがし",
+      "meaning": "east",
+      "type": "kun"
+    }
+  ],
+  "四": [
+    {
+      "word": "四十九日",
+      "reading": "しじゅうくにち",
+      "meaning": "forty-ninth day after a person's death",
+      "type": "on"
+    },
+    {
+      "word": "四つ",
+      "reading": "よっつ",
+      "meaning": "four",
+      "type": "kun"
+    }
+  ],
+  "今": [
+    {
+      "word": "今月",
+      "reading": "こんげつ",
+      "meaning": "this month",
+      "type": "on"
+    },
+    {
+      "word": "今",
+      "reading": "いま",
+      "meaning": "now",
+      "type": "kun"
+    }
+  ],
+  "金": [
+    {
+      "word": "金曜日",
+      "reading": "きんようび",
+      "meaning": "Friday",
+      "type": "on"
+    },
+    {
+      "word": "お金",
+      "reading": "おかね",
+      "meaning": "money",
+      "type": "kun"
+    }
+  ],
+  "九": [
+    {
+      "word": "四十九日",
+      "reading": "しじゅうくにち",
+      "meaning": "forty-ninth day after a person's death",
+      "type": "on"
+    },
+    {
+      "word": "九つ",
+      "reading": "ここのつ",
+      "meaning": "nine",
+      "type": "kun"
+    }
+  ],
+  "入": [
+    {
+      "word": "侵入",
+      "reading": "しんにゅう",
+      "meaning": "invasion",
+      "type": "on"
+    },
+    {
+      "word": "入る",
+      "reading": "はいる",
+      "meaning": "to enter",
+      "type": "kun"
+    }
+  ],
+  "学": [
+    {
+      "word": "学校",
+      "reading": "がっこう",
+      "meaning": "school",
+      "type": "on"
+    },
+    {
+      "word": "学ぶ",
+      "reading": "まなぶ",
+      "meaning": "to learn",
+      "type": "kun"
+    }
+  ],
+  "高": [
+    {
+      "word": "最高",
+      "reading": "さいこう",
+      "meaning": "best",
+      "type": "on"
+    },
+    {
+      "word": "高い",
+      "reading": "たかい",
+      "meaning": "high",
+      "type": "kun"
+    }
+  ],
+  "円": [
+    {
+      "word": "一円",
+      "reading": "いちえん",
+      "meaning": "one yen",
+      "type": "on"
+    },
+    {
+      "word": "円錐",
+      "reading": "まるぎり",
+      "meaning": "round gimlet",
+      "type": "kun"
+    }
+  ],
+  "子": [
+    {
+      "word": "お菓子",
+      "reading": "おかし",
+      "meaning": "confections",
+      "type": "on"
+    },
+    {
+      "word": "女の子",
+      "reading": "おんなのこ",
+      "meaning": "girl",
+      "type": "kun"
+    }
+  ],
+  "外": [
+    {
+      "word": "外国",
+      "reading": "がいこく",
+      "meaning": "foreign country",
+      "type": "on"
+    },
+    {
+      "word": "外",
+      "reading": "そと",
+      "meaning": "outside",
+      "type": "kun"
+    }
+  ],
+  "八": [
+    {
+      "word": "四苦八苦",
+      "reading": "しくはっく",
+      "meaning": "being in dire distress",
+      "type": "on"
+    },
+    {
+      "word": "八つ",
+      "reading": "やっつ",
+      "meaning": "eight",
+      "type": "kun"
+    }
+  ],
+  "六": [
+    {
+      "word": "四六時中",
+      "reading": "しろくじちゅう",
+      "meaning": "around the clock",
+      "type": "on"
+    },
+    {
+      "word": "六つ",
+      "reading": "むっつ",
+      "meaning": "six",
+      "type": "kun"
+    }
+  ],
+  "下": [
+    {
+      "word": "廊下",
+      "reading": "ろうか",
+      "meaning": "corridor",
+      "type": "on"
+    },
+    {
+      "word": "靴下",
+      "reading": "くつした",
+      "meaning": "socks",
+      "type": "kun"
+    }
+  ],
+  "来": [
+    {
+      "word": "来年",
+      "reading": "らいねん",
+      "meaning": "next year",
+      "type": "on"
+    },
+    {
+      "word": "来る",
+      "reading": "くる",
+      "meaning": "to come (spatially or temporally)",
+      "type": "kun"
+    }
+  ],
+  "気": [
+    {
+      "word": "元気",
+      "reading": "げんき",
+      "meaning": "lively",
+      "type": "on"
+    },
+    {
+      "word": "病気",
+      "reading": "びょうき",
+      "meaning": "illness (usu. excluding minor ailments, e.g. common cold)",
+      "type": "on"
+    }
+  ],
+  "小": [
+    {
+      "word": "小学生",
+      "reading": "しょうがくせい",
+      "meaning": "elementary school student",
+      "type": "on"
+    },
+    {
+      "word": "小さい",
+      "reading": "ちいさい",
+      "meaning": "small",
+      "type": "kun"
+    }
+  ],
+  "七": [
+    {
+      "word": "七回忌",
+      "reading": "しちかいき",
+      "meaning": "sixth anniversary of a death",
+      "type": "on"
+    },
+    {
+      "word": "七つ",
+      "reading": "ななつ",
+      "meaning": "seven",
+      "type": "kun"
+    }
+  ],
+  "山": [
+    {
+      "word": "山",
+      "reading": "さん",
+      "meaning": "Mt.",
+      "type": "on"
+    },
+    {
+      "word": "奥山",
+      "reading": "おくやま",
+      "meaning": "remote mountain",
+      "type": "kun"
+    }
+  ],
+  "話": [
+    {
+      "word": "電話",
+      "reading": "でんわ",
+      "meaning": "telephone call",
+      "type": "on"
+    },
+    {
+      "word": "話",
+      "reading": "はなし",
+      "meaning": "talk",
+      "type": "kun"
+    }
+  ],
+  "女": [
+    {
+      "word": "女",
+      "reading": "じょ",
+      "meaning": "woman",
+      "type": "on"
+    },
+    {
+      "word": "女の子",
+      "reading": "おんなのこ",
+      "meaning": "girl",
+      "type": "kun"
+    }
+  ],
+  "北": [
+    {
+      "word": "敗北",
+      "reading": "はいぼく",
+      "meaning": "defeat",
+      "type": "on"
+    },
+    {
+      "word": "北",
+      "reading": "きた",
+      "meaning": "north",
+      "type": "kun"
+    }
+  ],
+  "午": [
+    {
+      "word": "午後",
+      "reading": "ごご",
+      "meaning": "afternoon",
+      "type": "on"
+    },
+    {
+      "word": "丙午",
+      "reading": "ひのえうま",
+      "meaning": "Fire Horse (43rd term of the sexagenary cycle, e.g. 1906, 1966, 2026)",
+      "type": "kun"
+    }
+  ],
+  "百": [
+    {
+      "word": "百",
+      "reading": "ひゃく",
+      "meaning": "hundred",
+      "type": "on"
+    },
+    {
+      "word": "百千鳥",
+      "reading": "ももちどり",
+      "meaning": "many bird",
+      "type": "kun"
+    }
+  ],
+  "書": [
+    {
+      "word": "図書館",
+      "reading": "としょかん",
+      "meaning": "library",
+      "type": "on"
+    },
+    {
+      "word": "書く",
+      "reading": "かく",
+      "meaning": "to write",
+      "type": "kun"
+    }
+  ],
+  "先": [
+    {
+      "word": "先生",
+      "reading": "せんせい",
+      "meaning": "teacher",
+      "type": "on"
+    },
+    {
+      "word": "先",
+      "reading": "さき",
+      "meaning": "point",
+      "type": "kun"
+    }
+  ],
+  "名": [
+    {
+      "word": "有名",
+      "reading": "ゆうめい",
+      "meaning": "famous",
+      "type": "on"
+    },
+    {
+      "word": "名前",
+      "reading": "なまえ",
+      "meaning": "name",
+      "type": "kun"
+    }
+  ],
+  "川": [
+    {
+      "word": "河川",
+      "reading": "かせん",
+      "meaning": "rivers",
+      "type": "on"
+    },
+    {
+      "word": "川",
+      "reading": "かわ",
+      "meaning": "river",
+      "type": "kun"
+    }
+  ],
+  "千": [
+    {
+      "word": "何千",
+      "reading": "なんぜん",
+      "meaning": "many thousands",
+      "type": "on"
+    },
+    {
+      "word": "千草",
+      "reading": "ちぐさ",
+      "meaning": "great variety of flowering plants",
+      "type": "kun"
+    }
+  ],
+  "水": [
+    {
+      "word": "水曜日",
+      "reading": "すいようび",
+      "meaning": "Wednesday",
+      "type": "on"
+    },
+    {
+      "word": "水",
+      "reading": "みず",
+      "meaning": "water (esp. cool or cold)",
+      "type": "kun"
+    }
+  ],
+  "半": [
+    {
+      "word": "半分",
+      "reading": "はんぶん",
+      "meaning": "half",
+      "type": "on"
+    },
+    {
+      "word": "半ば",
+      "reading": "なかば",
+      "meaning": "middle",
+      "type": "kun"
+    }
+  ],
+  "男": [
+    {
+      "word": "男",
+      "reading": "なん",
+      "meaning": "son",
+      "type": "on"
+    },
+    {
+      "word": "男の子",
+      "reading": "おとこのこ",
+      "meaning": "boy",
+      "type": "kun"
+    }
+  ],
+  "西": [
+    {
+      "word": "西",
+      "reading": "せい",
+      "meaning": "Spain",
+      "type": "on"
+    },
+    {
+      "word": "真西",
+      "reading": "まにし",
+      "meaning": "due west",
+      "type": "kun"
+    }
+  ],
+  "電": [
+    {
+      "word": "電話",
+      "reading": "でんわ",
+      "meaning": "telephone call",
+      "type": "on"
+    },
+    {
+      "word": "電車",
+      "reading": "でんしゃ",
+      "meaning": "train",
+      "type": "on"
+    }
+  ],
+  "校": [
+    {
+      "word": "学校",
+      "reading": "がっこう",
+      "meaning": "school",
+      "type": "on"
+    },
+    {
+      "word": "高校",
+      "reading": "こうこう",
+      "meaning": "senior high school",
+      "type": "on"
+    }
+  ],
+  "語": [
+    {
+      "word": "英語",
+      "reading": "えいご",
+      "meaning": "English (language)",
+      "type": "on"
+    },
+    {
+      "word": "語る",
+      "reading": "かたる",
+      "meaning": "to talk about",
+      "type": "kun"
+    }
+  ],
+  "土": [
+    {
+      "word": "土曜日",
+      "reading": "どようび",
+      "meaning": "Saturday",
+      "type": "on"
+    },
+    {
+      "word": "赤土",
+      "reading": "あかつち",
+      "meaning": "red clay",
+      "type": "kun"
+    }
+  ],
+  "木": [
+    {
+      "word": "木曜日",
+      "reading": "もくようび",
+      "meaning": "Thursday",
+      "type": "on"
+    },
+    {
+      "word": "木",
+      "reading": "き",
+      "meaning": "tree",
+      "type": "kun"
+    }
+  ],
+  "聞": [
+    {
+      "word": "新聞",
+      "reading": "しんぶん",
+      "meaning": "newspaper",
+      "type": "on"
+    },
+    {
+      "word": "聞く",
+      "reading": "きく",
+      "meaning": "to hear",
+      "type": "kun"
+    }
+  ],
+  "食": [
+    {
+      "word": "食堂",
+      "reading": "しょくどう",
+      "meaning": "dining room",
+      "type": "on"
+    },
+    {
+      "word": "食べる",
+      "reading": "たべる",
+      "meaning": "to eat",
+      "type": "kun"
+    }
+  ],
+  "車": [
+    {
+      "word": "電車",
+      "reading": "でんしゃ",
+      "meaning": "train",
+      "type": "on"
+    },
+    {
+      "word": "車",
+      "reading": "くるま",
+      "meaning": "car",
+      "type": "kun"
+    }
+  ],
+  "何": [
+    {
+      "word": "幾何",
+      "reading": "きか",
+      "meaning": "geometry",
+      "type": "on"
+    },
+    {
+      "word": "何",
+      "reading": "なに",
+      "meaning": "what",
+      "type": "kun"
+    }
+  ],
+  "南": [
+    {
+      "word": "指南",
+      "reading": "しなん",
+      "meaning": "instruction (in martial arts, performance, etc.)",
+      "type": "on"
+    },
+    {
+      "word": "南",
+      "reading": "みなみ",
+      "meaning": "south",
+      "type": "kun"
+    }
+  ],
+  "万": [
+    {
+      "word": "万年筆",
+      "reading": "まんねんひつ",
+      "meaning": "fountain pen",
+      "type": "on"
+    },
+    {
+      "word": "千代万代",
+      "reading": "ちよよろずよ",
+      "meaning": "for ever and ever",
+      "type": "kun"
+    }
+  ],
+  "毎": [
+    {
+      "word": "毎日",
+      "reading": "まいにち",
+      "meaning": "every day",
+      "type": "on"
+    },
+    {
+      "word": "毎年",
+      "reading": "まいとし",
+      "meaning": "every year",
+      "type": "on"
+    }
+  ],
+  "白": [
+    {
+      "word": "告白",
+      "reading": "こくはく",
+      "meaning": "confession (to a crime, wrongdoing, etc.)",
+      "type": "on"
+    },
+    {
+      "word": "白い",
+      "reading": "しろい",
+      "meaning": "white",
+      "type": "kun"
+    }
+  ],
+  "天": [
+    {
+      "word": "天気",
+      "reading": "てんき",
+      "meaning": "weather",
+      "type": "on"
+    },
+    {
+      "word": "天下り",
+      "reading": "あまくだり",
+      "meaning": "retiring high-ranking government officials taking a lucrative job in a private or semi-private corporation",
+      "type": "kun"
+    }
+  ],
+  "母": [
+    {
+      "word": "異母",
+      "reading": "いぼ",
+      "meaning": "different mother",
+      "type": "on"
+    },
+    {
+      "word": "継母",
+      "reading": "ままはは",
+      "meaning": "stepmother",
+      "type": "kun"
+    }
+  ],
+  "火": [
+    {
+      "word": "火曜日",
+      "reading": "かようび",
+      "meaning": "Tuesday",
+      "type": "on"
+    },
+    {
+      "word": "飛び火",
+      "reading": "とびひ",
+      "meaning": "leaping flames",
+      "type": "kun"
+    }
+  ],
+  "右": [
+    {
+      "word": "左右",
+      "reading": "さゆう",
+      "meaning": "left and right",
+      "type": "on"
+    },
+    {
+      "word": "右",
+      "reading": "みぎ",
+      "meaning": "right",
+      "type": "kun"
+    }
+  ],
+  "読": [
+    {
+      "word": "読者",
+      "reading": "どくしゃ",
+      "meaning": "reader",
+      "type": "on"
+    },
+    {
+      "word": "読む",
+      "reading": "よむ",
+      "meaning": "to read",
+      "type": "kun"
+    }
+  ],
+  "友": [
+    {
+      "word": "友人",
+      "reading": "ゆうじん",
+      "meaning": "friend",
+      "type": "on"
+    },
+    {
+      "word": "友達",
+      "reading": "ともだち",
+      "meaning": "friend",
+      "type": "kun"
+    }
+  ],
+  "左": [
+    {
+      "word": "左",
+      "reading": "さ",
+      "meaning": "left (esp. in vertical Japanese writing)",
+      "type": "on"
+    },
+    {
+      "word": "右左",
+      "reading": "みぎひだり",
+      "meaning": "right and left",
+      "type": "kun"
+    }
+  ],
+  "休": [
+    {
+      "word": "自然休会",
+      "reading": "しぜんきゅうかい",
+      "meaning": "spontaneous recess (in the Diet)",
+      "type": "on"
+    },
+    {
+      "word": "休む",
+      "reading": "やすむ",
+      "meaning": "to be absent",
+      "type": "kun"
+    }
+  ],
+  "父": [
+    {
+      "word": "祖父",
+      "reading": "そふ",
+      "meaning": "grandfather",
+      "type": "on"
+    },
+    {
+      "word": "義理の父",
+      "reading": "ぎりのちち",
+      "meaning": "father-in-law",
+      "type": "kun"
+    }
+  ],
+  "雨": [
+    {
+      "word": "雨中",
+      "reading": "うちゅう",
+      "meaning": "in the rain",
+      "type": "on"
+    },
+    {
+      "word": "雨",
+      "reading": "あめ",
+      "meaning": "rain",
+      "type": "kun"
+    }
+  ]
+}
