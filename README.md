@@ -1,7 +1,7 @@
 # kanjicho-data
 
-The open dataset shipped inside **[Kanjichō](https://github.com/Zyxcid/Kanjicho)** —
-a JLPT kanji practice PWA (N5–N1) with FSRS-6 spaced repetition.
+The open dataset shipped inside **Kanjichō** — a JLPT kanji practice
+app (N5–N1) with FSRS-6 spaced repetition (source code not public).
 
 > **Latest sync: 2026-09-15** — every file in this repository is
 > byte-identical to the app's `src/data/` (sha256-verified at sync time),
