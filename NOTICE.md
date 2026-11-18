@@ -65,6 +65,22 @@ The translations themselves were produced for the Kanjichō app (batch
 translation, manual completion, line-by-line audit) and are contributed
 under the same licence as the underlying data, as ShareAlike requires.
 
+**2026-11-18 audit (r81):** 51 glosses corrected. Ambiguous English head
+words were re-decided by looking at which kanji actually use them (the
+`m` map is one-to-one across all kanji, so the majority reading wins):
+`present` → "menyerahkan" (供呈奉献, not the gift sense), `party` →
+"kelompok" (会党派隊連徒遭, not the celebration sense), `draft` → "draf"
+(案稿草, not conscription), `figure` → "sosok" (姿像態, not numerals),
+`right` → "kanan" (右), `letter` → "huruf" (字), `train` → "melatih"
+(練錬鍛), `crane` → "burung bangau" (鶴), `spring` → "mata air" (泉),
+`state` → "negara bagian" (州), `term` → "masa" (任期), `post` →
+"jabatan" (職), and similar. Machine-translation slips were fixed
+(`gloss` → "kilau" for 練, `forge` → "menempa" for 鍛, `drill` →
+"latihan" for 練錬, `brunt` → "terpaan utama" for 衝, `bargain` →
+"murah" for 廉), plus KBBI spelling (`anugerah`, `aktivitas`, `menaati`)
+and five example-word glosses (勤倹 "rajin dan hemat", 燎原 "api
+menjalar di padang", 捧げ銃 "menghormat dengan senjata", 贈呈, 活躍).
+
 ## manifest.json
 
 The N5–N1 study-unit structure: which kanji belong to which unit and in

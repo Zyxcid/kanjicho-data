@@ -3,14 +3,20 @@
 The open dataset shipped inside **Kanjichō** — a JLPT kanji practice
 app (N5–N1) with FSRS-6 spaced repetition (source code not public).
 
-> **Latest sync: 2026-09-15** — every file in this repository is
-> byte-identical to the app's `src/data/` (sha256-verified at sync time),
-> including the post-audit data rebuilds: 79 primary readings corrected
-> and 159 kanji's example-word sets cleaned (archaic entries such as 候由,
-> irregular okurigana such as 理り, and unattested variants such as 識る
-> are excluded; corpus-attested modern words such as 発つ are kept), plus
-> the Indonesian gloss overlay. If the app's data changes, re-sync this
-> repository.
+> **Latest sync: 2026-11-18** — every file in this repository is
+> byte-identical to the app's `src/data/` (sha256-verified at sync time).
+> This sync carries the **Indonesian gloss audit (r81)**: 51 corrections in
+> `id_gloss.json` — the polysemy fixes decided per-kanji evidence (e.g.
+> `present` no longer glosses as "hadiah" but "menyerahkan" for 供呈奉献,
+> `party` → "kelompok" for 会党派隊, `draft` → "draf" for 案稿草, `train` →
+> "melatih" for 練錬鍛, `crane` → "burung bangau" for 鶴), KBBI spelling
+> fixes (`anugrah` → `anugerah`, `aktifitas` → `aktivitas`, `mentaati` →
+> `menaati`), outright mistranslations (`gloss` → `cat` became `kilau`,
+> `forge` → `membuat palsu` became `menempa`, `drill` → `bor` became
+> `latihan`), and 5 example-word glosses (e.g. 勤倹 `industri` → `rajin dan
+> hemat`, 燎原 `pembakaran pertanian` → `api menjalar di padang`). Kanji/
+> examples/strokes/components/manifest are unchanged from the 2026-09-15
+> rebuild (79 primary readings corrected, 159 example-word sets cleaned).
 
 This repository exists for two reasons:
 
