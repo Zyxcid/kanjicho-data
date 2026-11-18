@@ -56,8 +56,10 @@ structure are dropped; only JLPT kanji are included.
 
 Indonesian translation overlay: `m` maps 5,205 English kanji meanings
 (KANJIDIC2-derived glosses, the same strings used as keys in the app) to
-Indonesian, and `w` maps 3,960 example words to Indonesian glosses of their
-JMdict senses. Translating copyrighted glosses creates an adaptation, so
+Indonesian, `w` maps 3,960 example words to Indonesian glosses of their
+JMdict senses, and `k` (added r81b) holds per-kanji overrides — 99 kanji
+where a single English head word must gloss differently on that kanji
+(e.g. 現/本 "present" → "saat ini" vs 供呈奉献 → "menyerahkan"). Translating copyrighted glosses creates an adaptation, so
 this file is published under **CC BY-SA 4.0** like its sources: meanings —
 © Electronic Dictionary Research and Development Group (KANJIDIC2);
 glosses — © Electronic Dictionary Research and Development Group (JMdict).
@@ -80,6 +82,30 @@ words were re-decided by looking at which kanji actually use them (the
 "murah" for 廉), plus KBBI spelling (`anugerah`, `aktivitas`, `menaati`)
 and five example-word glosses (勤倹 "rajin dan hemat", 燎原 "api
 menjalar di padang", 捧げ銃 "menghormat dengan senjata", 贈呈, 活躍).
+
+**2026-11-18 per-kanji overlay (r81b):** the r81 majority-rule fixes left
+minority users of each head word slightly off (現 "present" showed
+"menyerahkan"). The new `k` map fixes this without touching the schema of
+`m`: 107 overrides across 99 kanji, each chosen from that kanji's actual
+KANJIDIC2 sense — 現本 "saat ini"; 宴 "pesta"; 当是 "benar" and 順
+"giliran" for `right`; 便 "surat" for `letter`; 述陳 "menyatakan" for
+`state`; 辞 "istilah" for `term`; 柱 "tiang" for `post`; 臣 "bawahan
+(raja)" for `subject`; 跳 "melompat" for `spring`; 産 "menghasilkan" for
+`yield`; 恋 "merindukan" for `miss`; 苦 "penderitaan" for `trial`; 抑然
+interjectional "well"; 穂 "malai (padi)" for `ear`; 対 "seimbang" / 平
+"rata" for `even`; 使 "memerintahkan" for `order`; 派 "aliran" for
+`school`; 岳廉 `point`; 厚惇懇篤 "baik hati/ramah" for `kind`; 諭
+`charge`; 皮 "kulit (binatang)" for `hide`; 乗搭載 "naik (kendaraan)" /
+局 "dewan" / 賄 "makan (tunjangan)" for `board`; 堤 "tanggul" for `bank`;
+社 "perusahaan" for `firm`; 供呈奉献 "mempersembahkan" for `offer`; 倍
+"-lipat" for `fold`; 合添 `suit`; 整調 "menyetel" / 節 "bait (lagu)" for
+`tune`; 株 "saham" for `stock`; 息 "jeda" for `rest`; 殖育蓄飼 `raise`;
+擁誘鉛 `lead` (鉛 "timah"); 忍担負 "menanggung" for `bear`; 行 "perilaku"
+for `conduct`; 町 "blok (kota)" for `block`; 番順 "giliran" for `turn`;
+代 "tarif" for `rate`; 計 `plot`; 鉢潤目匹奥懐胸衷 `crown/favor/head/heart`;
+削翼葉 `plane`; 権稜 `power`; 揺 "menggoyangkan" for `rock`; 儀治王司宰掌監尺綜
+`rule`; 尽 "mengabdi" for `serve`; 域 "tahap" for `stage`; 丁井村街
+`town/street`; 表譜 "tabel" / 案 "meja" for `table`; 草識 `write`.
 
 ## manifest.json
 

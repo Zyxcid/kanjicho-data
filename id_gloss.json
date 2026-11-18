@@ -9167,5 +9167,312 @@
     "鼓膜": "telinga dalam",
     "鼻": "hidung",
     "齢": "(seseorang) umur"
+  },
+  "k": {
+    "丁": {
+      "street": "kawasan",
+      "town": "kawasan"
+    },
+    "乗": {
+      "board": "naik (kendaraan)",
+      "power": "pangkat",
+      "record": "mencatat"
+    },
+    "井": {
+      "town": "permukiman"
+    },
+    "代": {
+      "rate": "tarif"
+    },
+    "使": {
+      "order": "memerintahkan"
+    },
+    "供": {
+      "offer": "mempersembahkan"
+    },
+    "便": {
+      "letter": "surat"
+    },
+    "倍": {
+      "fold": "-lipat"
+    },
+    "儀": {
+      "rule": "upacara"
+    },
+    "削": {
+      "plane": "menyayat"
+    },
+    "匹": {
+      "head": "gulungan"
+    },
+    "厚": {
+      "kind": "baik hati"
+    },
+    "司": {
+      "rule": "mengepalai"
+    },
+    "合": {
+      "suit": "cocok"
+    },
+    "呈": {
+      "offer": "mempersembahkan"
+    },
+    "域": {
+      "stage": "tahap"
+    },
+    "堤": {
+      "bank": "tanggul"
+    },
+    "奉": {
+      "offer": "mempersembahkan"
+    },
+    "奥": {
+      "heart": "inti"
+    },
+    "宰": {
+      "rule": "mengelola"
+    },
+    "宴": {
+      "party": "pesta"
+    },
+    "対": {
+      "even": "seimbang"
+    },
+    "尺": {
+      "rule": "penggaris"
+    },
+    "尽": {
+      "serve": "mengabdi"
+    },
+    "局": {
+      "board": "dewan"
+    },
+    "岳": {
+      "point": "puncak"
+    },
+    "平": {
+      "even": "rata"
+    },
+    "底": {
+      "kind": "macam"
+    },
+    "廉": {
+      "point": "perkara"
+    },
+    "当": {
+      "right": "benar"
+    },
+    "忍": {
+      "bear": "menanggung"
+    },
+    "恋": {
+      "miss": "merindukan"
+    },
+    "息": {
+      "rest": "jeda"
+    },
+    "惇": {
+      "kind": "baik hati"
+    },
+    "懇": {
+      "kind": "ramah"
+    },
+    "懐": {
+      "heart": "kalbu"
+    },
+    "抑": {
+      "well": "nah"
+    },
+    "担": {
+      "bear": "menanggung"
+    },
+    "掌": {
+      "rule": "mengelola"
+    },
+    "揺": {
+      "rock": "menggoyangkan"
+    },
+    "搭": {
+      "board": "naik (kendaraan)"
+    },
+    "擁": {
+      "lead": "merangkul"
+    },
+    "整": {
+      "tune": "menyetel"
+    },
+    "是": {
+      "right": "benar"
+    },
+    "本": {
+      "present": "saat ini"
+    },
+    "村": {
+      "town": "desa"
+    },
+    "柱": {
+      "post": "tiang"
+    },
+    "株": {
+      "stock": "saham"
+    },
+    "権": {
+      "power": "kuasa"
+    },
+    "殖": {
+      "raise": "memperbanyak"
+    },
+    "治": {
+      "rule": "memerintah"
+    },
+    "派": {
+      "school": "aliran"
+    },
+    "添": {
+      "suit": "memenuhi"
+    },
+    "潤": {
+      "favor": "kenikmatan"
+    },
+    "然": {
+      "well": "kalau begitu"
+    },
+    "献": {
+      "offer": "mempersembahkan"
+    },
+    "王": {
+      "rule": "memerintah"
+    },
+    "現": {
+      "present": "saat ini"
+    },
+    "産": {
+      "bear": "melahirkan",
+      "yield": "menghasilkan"
+    },
+    "町": {
+      "block": "blok (kota)"
+    },
+    "番": {
+      "turn": "giliran"
+    },
+    "皮": {
+      "hide": "kulit (binatang)"
+    },
+    "監": {
+      "rule": "mengawasi"
+    },
+    "目": {
+      "favor": "perhatian"
+    },
+    "社": {
+      "firm": "perusahaan"
+    },
+    "秩": {
+      "order": "keteraturan"
+    },
+    "稜": {
+      "power": "wibawa"
+    },
+    "穂": {
+      "ear": "malai (padi)",
+      "head": "bulir puncak"
+    },
+    "節": {
+      "tune": "bait (lagu)"
+    },
+    "篤": {
+      "kind": "baik hati"
+    },
+    "綜": {
+      "rule": "menyelaraskan"
+    },
+    "育": {
+      "raise": "membesarkan"
+    },
+    "胸": {
+      "heart": "perasaan"
+    },
+    "臣": {
+      "subject": "bawahan (raja)"
+    },
+    "苦": {
+      "trial": "penderitaan"
+    },
+    "草": {
+      "write": "menulis draf"
+    },
+    "葉": {
+      "plane": "bilah"
+    },
+    "蓄": {
+      "raise": "menyimpan"
+    },
+    "行": {
+      "conduct": "perilaku"
+    },
+    "街": {
+      "street": "jalan besar",
+      "town": "jalan besar"
+    },
+    "表": {
+      "table": "tabel"
+    },
+    "衷": {
+      "heart": "hati terdalam"
+    },
+    "計": {
+      "plot": "rencana (jahat)"
+    },
+    "誘": {
+      "lead": "mengajak"
+    },
+    "調": {
+      "tune": "menyetel"
+    },
+    "諭": {
+      "charge": "memerintahkan"
+    },
+    "識": {
+      "write": "mencatat"
+    },
+    "譜": {
+      "table": "tabel"
+    },
+    "負": {
+      "bear": "menanggung"
+    },
+    "賄": {
+      "board": "makan (tunjangan)"
+    },
+    "跳": {
+      "spring": "melompat"
+    },
+    "載": {
+      "board": "naik (kendaraan)",
+      "record": "mencatat"
+    },
+    "辞": {
+      "term": "istilah"
+    },
+    "述": {
+      "state": "menyatakan"
+    },
+    "鉛": {
+      "lead": "timah"
+    },
+    "鉢": {
+      "crown": "puncak (kepala)"
+    },
+    "陳": {
+      "state": "menyatakan"
+    },
+    "順": {
+      "right": "giliran",
+      "turn": "giliran"
+    },
+    "飼": {
+      "raise": "memelihara"
+    }
   }
 }

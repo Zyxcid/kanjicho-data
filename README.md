@@ -3,20 +3,33 @@
 The open dataset shipped inside **Kanjichō** — a JLPT kanji practice
 app (N5–N1) with FSRS-6 spaced repetition (source code not public).
 
-> **Latest sync: 2026-11-18** — every file in this repository is
+> **Latest sync: 2026-11-18 (r81b)** — every file in this repository is
 > byte-identical to the app's `src/data/` (sha256-verified at sync time).
-> This sync carries the **Indonesian gloss audit (r81)**: 51 corrections in
-> `id_gloss.json` — the polysemy fixes decided per-kanji evidence (e.g.
-> `present` no longer glosses as "hadiah" but "menyerahkan" for 供呈奉献,
-> `party` → "kelompok" for 会党派隊, `draft` → "draf" for 案稿草, `train` →
-> "melatih" for 練錬鍛, `crane` → "burung bangau" for 鶴), KBBI spelling
-> fixes (`anugrah` → `anugerah`, `aktifitas` → `aktivitas`, `mentaati` →
-> `menaati`), outright mistranslations (`gloss` → `cat` became `kilau`,
-> `forge` → `membuat palsu` became `menempa`, `drill` → `bor` became
-> `latihan`), and 5 example-word glosses (e.g. 勤倹 `industri` → `rajin dan
-> hemat`, 燎原 `pembakaran pertanian` → `api menjalar di padang`). Kanji/
-> examples/strokes/components/manifest are unchanged from the 2026-09-15
-> rebuild (79 primary readings corrected, 159 example-word sets cleaned).
+> This sync carries the **Indonesian gloss audit (r81) + per-kanji overlay
+> (r81b)**:
+>
+> - **r81 — 51 corrections** in `id_gloss.json`: polysemy fixes decided
+>   per-kanji evidence (`present` → "menyerahkan" for 供呈奉献, `party` →
+>   "kelompok" for 会党派隊, `draft` → "draf" for 案稿草, `train` →
+>   "melatih" for 練錬鍛, `crane` → "burung bangau" for 鶴), KBBI spelling
+>   (`anugerah`, `aktivitas`, `menaati`), mistranslations (`gloss` →
+>   "kilau", `forge` → "menempa", `drill` → "latihan"), and 5 example-word
+>   glosses (勤倹 "rajin dan hemat", 燎原 "api menjalar di padang", …).
+> - **r81b — new map `k` (per-kanji overrides, 99 kanji / 107 pairs)**:
+>   one English head word can mean different things on different kanji,
+>   and a single global `m` map cannot express that. `k[kanji][en]`
+>   overrides `m[en]` for that kanji only: 現/本 `present` → "saat ini"
+>   while 供呈奉献 keep "menyerahkan"; 宴 `party` → "pesta" while 会党派隊
+>   keep "kelompok"; 右 `right` → "kanan" but 当是 → "benar"; 鉛 `lead` →
+>   "timah" while 率督連 keep "memimpin"; 皮 `hide` → "kulit (binatang)";
+>   堤 `bank` → "tanggul"; 株 `stock` → "saham"; 息 `interest (on money)` →
+>   "bunga" (redundant with `m`, kept in `m` only); 倍 `fold` → "-lipat";
+>   表譜 `table` → "tabel" while 卓机案 → "meja"; and similar. Resolution
+>   order in the app: `k[kanji][en]` → `m[en]` → English fallback.
+>
+> Kanji/examples/strokes/components/manifest are unchanged from the
+> 2026-09-15 rebuild (79 primary readings corrected, 159 example-word sets
+> cleaned).
 
 This repository exists for two reasons:
 
@@ -38,7 +51,7 @@ This repository exists for two reasons:
 | `examples/` | `n5_examples.json` … `n1_examples.json` | Up to two example words per kanji (word, reading, meaning, on/kun) | **CC BY-SA 4.0** (derived from JMdict) |
 | `strokes/` | `strokes_n5.json` … `strokes_n2.json`, `strokes_n1_idx.json` + `strokes_n1_p0..p3.json` | Per-kanji stroke paths (viewBox 0 0 109 109, one path array per stroke) for drawing animations. N1 is split into an index + 4 parts exactly as the app lazy-loads it; merge = concatenate the four part objects (the index maps kanji → part). | **CC BY-SA 3.0** (derived from KanjiVG) |
 | `components/` | `components_n5.json` … `components_n1.json` | Component decomposition equations (e.g. 験 = ⾭ + 馬) from stroke-group structure | **CC BY-SA 3.0** (derived from KanjiVG) |
-| `id_gloss.json` | — | Indonesian overlay: `m` (5,205 English kanji meanings → Indonesian) and `w` (3,960 example words → Indonesian glosses). Missing keys fall back to English. | **CC BY-SA 4.0** (translations of KANJIDIC2 meanings + JMdict glosses — a translation is an adaptation) |
+| `id_gloss.json` | — | Indonesian overlay: `m` (5,205 English kanji meanings → Indonesian), `w` (3,960 example words → Indonesian glosses), and `k` (per-kanji overrides, r81b: 99 kanji where one English head word needs a different Indonesian gloss on that kanji). Missing keys fall back to English; resolution order `k[kanji][en]` → `m[en]` → English. | **CC BY-SA 4.0** (translations of KANJIDIC2 meanings + JMdict glosses — a translation is an adaptation) |
 | `manifest.json` | — | N5–N1 unit structure (which kanji belong to which study unit, in what order) | **CC BY-SA 4.0** (selection/ordering derived from KANJIDIC2 + the Jiten frequency signal) |
 
 Root files: `LICENSE` (CC BY-SA 4.0) and `LICENSE-CC-BY-SA-3.0.txt` hold the
